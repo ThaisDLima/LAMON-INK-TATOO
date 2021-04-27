@@ -1,0 +1,173 @@
+/* Geral */
+.barra-inicial {
+    background-color: #FFF;
+    height: 50px;
+}
+
+#logo {
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    margin: auto;
+    max-height: 100%;
+}
+
+.icon {
+    right: 0;
+    text-align: right;
+    top: 55px;
+    z-index: 1;
+    width: auto;
+    padding-right: 200px;
+    
+}
+
+.icon-estilo {
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 5px;
+}
+
+* {
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.subtitulo {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 70px;
+}
+
+/* Cabeçado */
+
+header {
+    color: #ffffff;
+    background: #120333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 10;
+}
+
+header nav {
+    display: inline-block;
+    width: calc(100% - 270px);
+    min-width: 300px;
+    text-align: end;
+}
+
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 5px;
+    padding: 8px;
+    transition: .3s ease all;
+}
+
+header nav ul li a:hover {
+    color: #120333;
+    background-color: #fff;
+}
+
+/* Introducao */
+
+.introducao {
+    width: 100%;
+    height: 380px;
+    background: url(../imagens/machine.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: 55px;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.introducao h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20;
+}
+
+.introducao h2:after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 3px;
+    background: #fff;
+    margin: 4px auto 10px auto;
+}
+
+.introducao p {
+    color: #fff;
+    margin-top: -20px;
+    font-size: 21px;
+}
+
+/* Quebra */
+.quebra {
+    width: 100%;
+    height: 150px;
+    background: url(../imagens/geek.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.quebra p {
+    color: #fff;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.endereco {
+    padding-top: 10px;
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    vertical-align: top;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contatos ul li {
+    display: block;
+}

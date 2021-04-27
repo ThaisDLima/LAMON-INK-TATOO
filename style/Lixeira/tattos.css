@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.container{
+    width: 80%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+header{
+    color: #ffffff;
+    background: #000000;
+    
+}
+
+header h1{
+    display: inline-block;
+    width: 250px;
+}
+
+header nav{
+    display: inline-block;
+    width: calc(100% - 270px);
+    min-width: 300px;
+    text-align: end;
+}
+
+
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 7px;
+}
+
+#fundo-banner{   
+    background-color: #1e252e;
+}
+
+#banner{
+    width: 100%;
+    min-width: 300px;
+    margin-bottom: -5px;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+}
+
+.endereco{
+    padding-top: 10px;
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    vertical-align: top;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}

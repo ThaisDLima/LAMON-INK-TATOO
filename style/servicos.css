@@ -1,0 +1,50 @@
+
+
+main section h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    margin-top: 0px;
+}
+
+.servicos_lista{
+    display: inline-block;
+    margin: 0px auto 50px auto;
+}
+
+.servicos_lista li{
+    background: #000;
+    display: inline-block;
+    width: 32%;
+    min-width: 250px;
+    height: 300px;
+    text-align: center;
+    border: #fff 2px solid;
+    vertical-align: top;
+    margin: 0px 2px 2px 0px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.servicos_lista li h3{
+    font-size: 22px;
+}
+
+.servicos_lista li p{
+    padding: 5 auto;
+}
+
+.servicos_icone{
+    background: #120333;
+}
+
+.icon{
+    padding: 35px;
+    width: 80px;
+}
+
+.servicos_lista li h3{
+    font-size: 22px;
+    color: #fff;
+    text-transform: uppercase;
+}

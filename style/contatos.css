@@ -1,0 +1,49 @@
+main section h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+form label, form legend {
+    display: block;
+    margin: 10px 0px;
+}
+
+form input, form textarea, form select {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+}
+
+form input[type=radio], form input[type=checkbox]{
+    display: inline-block;
+    width: auto;
+}
+
+fieldset{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.label-inline{
+    display: inline-block;
+}
+
+form input[type=submit]{
+    width: 30%;
+    min-width: 300px;
+    margin: 10px auto;
+    background: #120333;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+form input[type=submit]:hover{
+    border: 1px solid #120333;
+    background-color: #fff;
+    color: #000;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/contatos.css">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <title>Tattoos</title>
+</head>
+<body>
+    <!-- Barra fixa no topo-->
+    <header>
+        <div class="barra-inicial">
+            <div class="icon">
+                <i class="fa fa-facebook-square" style="font-size:40px;color:black;"></i>
+                <i class=" icon-estilo fa fa-instagram" style="font-size:40px;color:black;"></i>
+                <i class="fa fa-whatsapp" style="font-size:40px;color:black;"></i>
+            </div>
+        </div>
+        <div class="container">
+                 <h1><img id="logo" src="imagens/logo.png"
+                        alt="foto do logo do estudio do tatuador"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Introdução -->
+    <section class="introducao">
+        <div class="container">
+            <h2>Lamon Ink</h2>
+            <p>Tatuador Geek</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <section>
+            <h2>Contato e orçamento de tattoos!</h2>
+            <form>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Primeiro nome" required>
+
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" id="sobrenome" placeholder="Sobrenome" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="exemplo@email.com.br" required>
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" placeholder="(99) 99999-9999" required>
+
+                <label for="local_corpo">Local do corpo</label>
+                <input type="text" id="local_corpo" placeholder="Local desejado" required>
+
+                <label for="cm">Tamanho em centímetro</label>
+                <select name="tamanho" id="cm" required>
+                    <option value="menosdez">Menos que 10cm</option>
+                    <option value="dez_quinze">10-15Cm</option>
+                    <option value="dezesseis_vinte">16-20cm</option>
+                    <option value="maisvinte">Mais de 20cm</option>
+                </select>
+
+                <label for="descricao">Descrição da tattoo</label>
+                <textarea id="descricao" cols="30" rows="10" required></textarea>
+
+                <fieldset>
+                    <legend>Tem disponibilidade de vim ao studio?</legend>
+                    <input type="radio" id="local-sim" name="contato" checked>
+                    <label for="local-sim" class="label-inline">Sim</label>
+
+                    <input type="radio" id="local-nao" name="contato">
+                    <label for="local-nao" class="label-inline">Não</label>
+                </fieldset>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <!-- Quebra-->
+    <section class="quebra">
+        <p>"Persiga seus sonho!"</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <address class="endereco" class="container">
+            Rua Prof. Cardoso Rangel, Nº. 21<br>
+            Grajau, São Paulo - SP <br>
+            CEP: 04843-360
+        </address>
+        <div class="endereco contatos">
+            <ul>
+                <li>
+                    <span>Telefone:</span>
+                    <a href="tel: +5511965268597">(11) 965268597</a>
+                </li>
+                <li>
+                    <span>Email:</span>
+                    <a href="email: ">email@asdsadasda.com</a>
+                </li>
+        </ul>
+    </footer>
+
+</body>
+</html>
